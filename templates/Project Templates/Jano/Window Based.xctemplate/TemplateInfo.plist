@@ -14,21 +14,6 @@
 	<true/>
 	<key>Definitions</key>
 	<dict>
-		<key>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</key>
-		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
-&lt;array&gt;
-     &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
-     &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
-     &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
-&lt;/array&gt;</string>
-		<key>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</key>
-		<string>&lt;key&gt;UISupportedInterfaceOrientations~ipad&lt;/key&gt;
-&lt;array&gt;
-	&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
-	&lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
-	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
-	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
-&lt;/array&gt;</string>
 		<key>Classes/generic/log/Logger.h</key>
 		<dict>
 			<key>Group</key>
@@ -53,6 +38,21 @@
 			<key>Path</key>
 			<string>Classes/generic/log/Logger.m</string>
 		</dict>
+		<key>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</key>
+		<string>&lt;key&gt;UISupportedInterfaceOrientations~ipad&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</key>
+		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
+&lt;array&gt;
+     &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;</string>
 		<key>Classes/support/main.m</key>
 		<dict>
 			<key>Group</key>
@@ -69,7 +69,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Window-based application with options to include some popular frameworks. </string>
+	<string>Window-based application with options for some popular frameworks. </string>
 	<key>Identifier</key>
 	<string>es.com.jano.windowBased</string>
 	<key>Kind</key>
@@ -95,136 +95,8 @@
 			<string>popup</string>
 			<key>Units</key>
 			<dict>
-				<key>Universal</key>
-				<dict>
-					<key>Definitions</key>
-					<dict>
-						<key>Classes/iPhone/AppDelegateiPhone.m</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPhone</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPhone/AppDelegateiPhone.m</string>
-						</dict>
-						<key>Classes/iPhone/AppDelegateiPhone.h</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPhone</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPhone/AppDelegateiPhone.h</string>
-							<key>TargetIndices</key>
-							<array/>
-						</dict>
-						<key>Classes/iPhone/en.lproj/MainWindowiPhone.xib</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPhone</string>
-								<string>en.lproj</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPhone/en.lproj/MainWindowiPhone.xib</string>
-						</dict>
-						<key>Classes/iPad/en.lproj/MainWindowiPad.xib</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPad</string>
-								<string>en.lproj</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPad/en.lproj/MainWindowiPad.xib</string>
-						</dict>
-						<key>Classes/iPad/AppDelegateiPad.m</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPad</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPad/AppDelegateiPad.m</string>
-						</dict>
-						<key>Classes/iPad/AppDelegateiPad.h</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-								<string>iPad</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/iPad/AppDelegateiPad.h</string>
-							<key>TargetIndices</key>
-							<array/>
-						</dict>
-						<key>Classes/AppDelegate.m</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/AppDelegate.m</string>
-						</dict>
-						<key>Classes/AppDelegate.h</key>
-						<dict>
-							<key>Group</key>
-							<array>
-								<string>Classes</string>
-							</array>
-							<key>Path</key>
-							<string>Classes/AppDelegate.h</string>
-							<key>TargetIndices</key>
-							<array/>
-						</dict>
-						<key>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</key>
-						<string>&lt;key&gt;NSMainNibFile&lt;/key&gt;
-&lt;string&gt;MainWindowiPhone&lt;/string&gt;
-</string>
-					</dict>
-					<key>Nodes</key>
-					<array>
-						<string>Classes/AppDelegate.m</string>
-						<string>Classes/AppDelegate.h</string>
-						<string>Classes/iPad/en.lproj/MainWindowiPad.xib</string>
-						<string>Classes/iPad/AppDelegateiPad.m</string>
-						<string>Classes/iPad/AppDelegateiPad.h</string>
-						<string>Classes/iPhone/AppDelegateiPhone.h</string>
-						<string>Classes/iPhone/AppDelegateiPhone.m</string>
-						<string>Classes/iPhone/en.lproj/MainWindowiPhone.xib</string>
-						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</string>
-						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</string>
-						<string>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</string>
-					</array>
-					<key>Project</key>
-					<dict>
-						<key>SharedSettings</key>
-						<dict>
-							<key>TARGETED_DEVICE_FAMILY</key>
-							<string>1,2</string>
-						</dict>
-					</dict>
-				</dict>
 				<key>iPad</key>
 				<dict>
-					<key>Project</key>
-					<dict>
-						<key>SharedSettings</key>
-						<dict>
-							<key>ARCHS</key>
-							<string>$(ARCHS_UNIVERSAL_IPHONE_OS)</string>
-							<key>TARGETED_DEVICE_FAMILY</key>
-							<string>2</string>
-						</dict>
-					</dict>
 					<key>Definitions</key>
 					<dict>
 						<key>Classes/AppDelegate.h</key>
@@ -295,17 +167,19 @@
 						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</string>
 						<string>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</string>
 					</array>
-				</dict>
-				<key>iPhone</key>
-				<dict>
 					<key>Project</key>
 					<dict>
 						<key>SharedSettings</key>
 						<dict>
+							<key>ARCHS</key>
+							<string>$(ARCHS_UNIVERSAL_IPHONE_OS)</string>
 							<key>TARGETED_DEVICE_FAMILY</key>
-							<string>1</string>
+							<string>2</string>
 						</dict>
 					</dict>
+				</dict>
+				<key>iPhone</key>
+				<dict>
 					<key>Definitions</key>
 					<dict>
 						<key>Classes/AppDelegate.h</key>
@@ -376,6 +250,132 @@
 						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</string>
 						<string>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</string>
 					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>1</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>Universal</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Classes/AppDelegate.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/AppDelegate.h</string>
+							<key>TargetIndices</key>
+							<array/>
+						</dict>
+						<key>Classes/AppDelegate.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/AppDelegate.m</string>
+						</dict>
+						<key>Classes/iPad/AppDelegateiPad.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPad</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPad/AppDelegateiPad.h</string>
+							<key>TargetIndices</key>
+							<array/>
+						</dict>
+						<key>Classes/iPad/AppDelegateiPad.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPad</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPad/AppDelegateiPad.m</string>
+						</dict>
+						<key>Classes/iPad/en.lproj/MainWindowiPad.xib</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPad</string>
+								<string>en.lproj</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPad/en.lproj/MainWindowiPad.xib</string>
+						</dict>
+						<key>Classes/iPhone/AppDelegateiPhone.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPhone</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPhone/AppDelegateiPhone.h</string>
+							<key>TargetIndices</key>
+							<array/>
+						</dict>
+						<key>Classes/iPhone/AppDelegateiPhone.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPhone</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPhone/AppDelegateiPhone.m</string>
+						</dict>
+						<key>Classes/iPhone/en.lproj/MainWindowiPhone.xib</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>iPhone</string>
+								<string>en.lproj</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/iPhone/en.lproj/MainWindowiPhone.xib</string>
+						</dict>
+						<key>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</key>
+						<string>&lt;key&gt;NSMainNibFile&lt;/key&gt;
+&lt;string&gt;MainWindowiPhone&lt;/string&gt;
+</string>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>Classes/AppDelegate.m</string>
+						<string>Classes/AppDelegate.h</string>
+						<string>Classes/iPad/en.lproj/MainWindowiPad.xib</string>
+						<string>Classes/iPad/AppDelegateiPad.m</string>
+						<string>Classes/iPad/AppDelegateiPad.h</string>
+						<string>Classes/iPhone/AppDelegateiPhone.h</string>
+						<string>Classes/iPhone/AppDelegateiPhone.m</string>
+						<string>Classes/iPhone/en.lproj/MainWindowiPhone.xib</string>
+						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+						<string>Classes/support/___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</string>
+						<string>Classes/support/___PACKAGENAME___-Info.plist:NSMainNibFile</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>1,2</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
