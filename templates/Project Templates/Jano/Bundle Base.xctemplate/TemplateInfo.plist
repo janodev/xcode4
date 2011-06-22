@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Definitions</key>
+	<dict>
+		<key>Classes/support/___PACKAGENAME___-Info.plist</key>
+		<dict>
+			<key>Beginning</key>
+			<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+	&lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
+	&lt;string&gt;en&lt;/string&gt;
+	&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+	&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+	&lt;key&gt;CFBundleDocumentTypes&lt;/key&gt;
+	&lt;array/&gt;
+	&lt;key&gt;CFBundleExecutable&lt;/key&gt;
+	&lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;
+	&lt;key&gt;CFBundleIconFile&lt;/key&gt;
+	&lt;string&gt;&lt;/string&gt;
+	&lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;
+	&lt;string&gt;6.0&lt;/string&gt;
+	&lt;key&gt;CFBundleName&lt;/key&gt;
+	&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+	&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+	&lt;string&gt;APPL&lt;/string&gt;
+	&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+	&lt;string&gt;1.0&lt;/string&gt;
+	&lt;key&gt;CFBundleSignature&lt;/key&gt;
+	&lt;string&gt;????&lt;/string&gt;
+	&lt;key&gt;CFBundleURLTypes&lt;/key&gt;
+	&lt;array/&gt;
+	&lt;key&gt;CFBundleVersion&lt;/key&gt;
+	&lt;string&gt;1.0&lt;/string&gt;
+	&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;UTExportedTypeDeclarations&lt;/key&gt;
+	&lt;array/&gt;
+	&lt;key&gt;UTImportedTypeDeclarations&lt;/key&gt;
+	&lt;array/&gt;
+</string>
+			<key>End</key>
+			<string>&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>support</string>
+			</array>
+			<key>Indent</key>
+			<integer>1</integer>
+			<key>SubstituteMacros</key>
+			<true/>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/support/___PACKAGENAME___-Info.plist:CFBundleIdentifier</key>
+		<string>&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
+&lt;string&gt;___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.${PRODUCT_NAME:rfc1034identifier}&lt;/string&gt;
+</string>
+		<key>Classes/support/___PACKAGENAME___-Prefix.pch</key>
+		<dict>
+			<key>Beginning</key>
+			<string>#import &lt;Availability.h&gt;
+
+#ifndef __IPHONE_3_0
+#warning &quot;This project uses features only available in iPhone SDK 3.0 and later.&quot;
+#endif
+
+#ifdef __OBJC__
+    #import &lt;UIKit/UIKit.h&gt;
+    #import &lt;Foundation/Foundation.h&gt;
+    #import &quot;Logger.h&quot;
+#endif
+</string>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>support</string>
+			</array>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Base for other templates and targets.</string>
+	<key>Identifier</key>
+	<string>es.com.jano.base</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Classes/support/___PACKAGENAME___-Info.plist</string>
+		<string>Classes/support/___PACKAGENAME___-Info.plist:CFBundleIdentifier</string>
+		<string>Classes/support/___PACKAGENAME___-Prefix.pch</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Your new product&apos;s name.</string>
+			<key>EmptyReplacement</key>
+			<string>ProductName</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Product Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Your company&apos;s bundle identifier prefix.</string>
+			<key>EmptyReplacement</key>
+			<string>com.yourcompany</string>
+			<key>Identifier</key>
+			<string>bundleIdentifierPrefix</string>
+			<key>Name</key>
+			<string>Company Identifier</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
+			<key>Description</key>
+			<string>Your new product&apos;s bundle identifier.</string>
+			<key>Identifier</key>
+			<string>bundleIdentifier</string>
+			<key>Name</key>
+			<string>Bundle Identifier</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
