@@ -12,4 +12,4 @@ I'll add more stuff as I need it. :P
 git clone git@github.com:j4n0/xcode4.git
 ./xcode4/install-templates.sh
 </pre>
-Open XCode and create a new project, you'll see a new *Custom* category.
+Open XCode and create a new project, you'll see a new *Jano* category.
