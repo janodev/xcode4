@@ -9,8 +9,7 @@ I'll add more stuff as I need it. :P
 
 ### Installation
 <pre>
-git clone git@github.com:j4n0/XCode4-templates.git
-mkdir -p ~/Library/Developer/Xcode/Templates/Project\ Templates/
-cp -r XCode4-templates/Project\ Templates/ ~/Library/Developer/Xcode/Templates/Project\ Templates/
+git clone git@github.com:j4n0/xcode4.git
+./xcode4/install-templates.sh
 </pre>
 Open XCode and create a new project, you'll see a new *Custom* category.
