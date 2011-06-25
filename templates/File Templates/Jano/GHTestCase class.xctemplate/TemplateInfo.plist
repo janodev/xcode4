@@ -6,21 +6,21 @@
 	<array>
 		<string>public.objective-c-source</string>
 	</array>
-	<key>Description</key>
-	<string>GHTestCase</string>
-	<key>Summary</key>
-	<string>A GHTestCase subclass</string>
 	<key>DefaultCompletionName</key>
 	<string>MyGHUnitTestCase</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
+	<key>Description</key>
+	<string>GHTestCase</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-	<key>SortOrder</key>
-	<integer>2</integer>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
+	<key>SortOrder</key>
+	<integer>3</integer>
+	<key>Summary</key>
+	<string>A GHTestCase subclass</string>
 </dict>
 </plist>

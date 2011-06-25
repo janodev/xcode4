@@ -8,9 +8,9 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>Class</string>
 	<key>Description</key>
-	<string>An Objective-C class, with a header that includes the &lt;Foundation/Foundation.h&gt; header.</string>
+	<string>An Objective-C class which is a subclass of UIViewController, with a header file which includes the &lt;UIKit/UIKit.h&gt; header and an optional XIB interface file.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -19,11 +19,11 @@
 	<array>
 		<dict>
 			<key>Default</key>
-			<string>NSObject</string>
+			<string>UIViewController</string>
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
 			<key>Identifier</key>
-			<string>cocoaTouchSubclass</string>
+			<string>viewControllerSubclass</string>
 			<key>Name</key>
 			<string>Subclass of</string>
 			<key>Required</key>
@@ -32,10 +32,29 @@
 			<string>combo</string>
 			<key>Values</key>
 			<array>
-				<string>NSObject</string>
-				<string>UITableViewCell</string>
-				<string>UIView</string>
+				<string>UIViewController</string>
+				<string>UITableViewController</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Identifier</key>
+			<string>iPad</string>
+			<key>Name</key>
+			<string>Targeted for iPad</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>withXIB</string>
+			<key>Name</key>
+			<string>With XIB for user interface</string>
+			<key>Type</key>
+			<string>checkbox</string>
 		</dict>
 	</array>
 	<key>Platforms</key>
@@ -43,8 +62,8 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>SortOrder</key>
-	<string>3</string>
+	<string>1</string>
 	<key>Summary</key>
-	<string>An Objective-C class with a header</string>
+	<string>An Objective-C view controller subclass</string>
 </dict>
 </plist>
