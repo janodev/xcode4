@@ -1,4 +1,7 @@
 
+//  Created by ___FULLUSERNAME___.
+//  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+
 #define trace(args...) [[Logger singleton] debugWithLevel:kTrace line:__LINE__ funcName:__PRETTY_FUNCTION__ message:args];
 #define debug(args...) [[Logger singleton] debugWithLevel:kDebug line:__LINE__ funcName:__PRETTY_FUNCTION__ message:args];
 #define info(args...)  [[Logger singleton] debugWithLevel:kInfo  line:__LINE__ funcName:__PRETTY_FUNCTION__ message:args];
@@ -33,10 +36,7 @@
 // reset colors
 #define LCL_RESET     @"\033[0m"
 
-
-/**
- * @author jano@jano.com.es
- */
+/** Logger. */
 @interface Logger : NSObject
 
 typedef enum {

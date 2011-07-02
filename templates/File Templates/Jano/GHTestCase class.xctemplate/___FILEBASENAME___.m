@@ -1,4 +1,7 @@
 
+//  Created by ___FULLUSERNAME___.
+//  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+
 @interface ___FILEBASENAME___ : GHTestCase { }
 @end
 

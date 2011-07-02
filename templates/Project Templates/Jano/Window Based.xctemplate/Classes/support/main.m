@@ -1,7 +1,9 @@
 
+//  Created by ___FULLUSERNAME___.
+//  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+
 #import <UIKit/UIKit.h>
 
-/** @author ___FULLUSERNAME___ */
 int main(int argc, char *argv[])
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];

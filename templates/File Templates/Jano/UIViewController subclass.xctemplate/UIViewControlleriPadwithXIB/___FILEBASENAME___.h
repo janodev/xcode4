@@ -1,7 +1,9 @@
 
+//  Created by ___FULLUSERNAME___.
+//  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+
 #import <UIKit/UIKit.h>
 
-/** ___FULLUSERNAME___ */
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_viewControllerSubclass___
 
 @end

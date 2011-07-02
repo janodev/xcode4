@@ -14,6 +14,13 @@
 	<true/>
 	<key>Definitions</key>
 	<dict>
+		<key>appledoc.sh</key>
+		<dict>
+			<key>Path</key>
+			<string>appledoc.sh</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
 		<key>Classes/generic/log/Logger.h</key>
 		<dict>
 			<key>Group</key>
@@ -76,6 +83,7 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
+		<string>appledoc.sh</string>
 		<string>Classes/support/main.m</string>
 		<string>Classes/generic/log/Logger.h</string>
 		<string>Classes/generic/log/Logger.m</string>
