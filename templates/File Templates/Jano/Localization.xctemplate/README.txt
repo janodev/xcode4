@@ -8,7 +8,8 @@ How to localize with this class:
   - Create one file per language with path `<localizationName>.lproj/Localizable.strings`.
     Replace localizationName with the ISO code for your language. eg: 'es' or 'it' or whatever.
     Write this file in UTF-16. 
-    Each line should be formatted like this: `"key"="value";` (don't forget the semicolon!)
+    Each line should be formatted like this: `"key"="value";` (don't forget the semicolon!).
+    I include a sample Localizable.strings file.
 
   - Create an ivar Localization*localization in the application delegate, and initialize it
     in the applicationDidFinish.
