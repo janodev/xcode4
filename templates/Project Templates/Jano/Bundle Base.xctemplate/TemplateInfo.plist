@@ -76,6 +76,13 @@
     #import &lt;Foundation/Foundation.h&gt;
     #import &quot;Logger.h&quot;
 #endif
+
+#if DEBUG
+    #define safeRelease(x) do { [x release]; if (!getenv(&quot;NSZombieEnabled&quot;)) x = (id)0xDEADBEEF; } while (0)
+#else
+    #define safeRelease(x) [x release], x = nil
+#endif
+
 </string>
 			<key>Group</key>
 			<array>
