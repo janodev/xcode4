@@ -35,12 +35,12 @@ then
 fi
 
 # Run appledoc
-appledoc --company-id "$COMPANYID"        \
---ignore ./$PACKAGENAME/Classes/libraries \
---ignore ./$PACKAGENAME/Classes/support   \
---output ./help                           \
---project-company "$COMPANYNAME"          \
---project-name $PACKAGENAME               \
-$NODOCSET                                 \
-$KEEPFILES                                \
+appledoc --company-id "$COMPANYID" \
+--ignore libraries                 \
+--ignore support                   \
+--output ./help                    \
+--project-company "$COMPANYNAME"   \
+--project-name $PACKAGENAME        \
+$NODOCSET                          \
+$KEEPFILES                         \
 ./$PACKAGENAME/Classes
